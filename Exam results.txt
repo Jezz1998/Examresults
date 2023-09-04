@@ -1,0 +1,7 @@
+index = input("Enter Your Index Number: ")
+results = {
+    "15160" : "Abhishek Raj \n Maths-C \n Chemistry-B \n Physics-A \n Z.Score-2.654 \n District Rank-59",
+    "15161" : "Julie Fernandez \n Biology-C \n Chemistry-B \n Physics-B \n Z.Score-2.478 \n District Rank-99",
+    "15162" : "Raza Shah \n Business-A \n Accounts-B \n Economics-A \n Z.Score-2.557 \n District Rank-123",
+}
+print(results.get(index))
